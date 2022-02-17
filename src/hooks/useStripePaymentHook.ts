@@ -21,7 +21,7 @@ export const useStripePaymentHook = () => {
 
     await initStripe({
       publishableKey: pubKey,
-      merchantIdentifier: 'merchant.com.pocketle',
+      merchantIdentifier: 'merchant.com',
     });
   };
 
